@@ -11,29 +11,29 @@ resource "azurerm_template_deployment" "smallcidr" {
   parameters {
     "vnetName" = "RG-AZE-SPCLOUDPOC-01-VNET"
 
-    "vnetAddressPrefix-MGMT" = "10.228.63.192/28"
+    "vnetAddressPrefix-MGMT" = "10.228.xx"
 
-    "vnetAddressPrefix-APP" = "10.228.160.192/28"
+    "vnetAddressPrefix-APP" = "10.228.xx"
 
-    "vnetAddressPrefix-DATA" = "10.228.224.192/28"
+    "vnetAddressPrefix-DATA" = "10.228.xx"
 
-    "vnetAddressPrefix-PRES" = "10.228.96.192/28"
+    "vnetAddressPrefix-PRES" = "10.228.xx"
 
     "subnet1Name" = "SPCLOUDPOC-MGMT"
 
-    "subnet1Prefix" = "10.228.63.192/28"
+    "subnet1Prefix" = "10.228.xx"
 
     "subnet2Name" = "SPCLOUDPOC-APP"
 
-    "subnet2Prefix" = "10.228.160.192/28"
+    "subnet2Prefix" = "10.228.xx"
 
     "subnet3Name" = "SPCLOUDPOC-DATA"
 
-    "subnet3Prefix" = "10.228.224.192/28"
+    "subnet3Prefix" = "10.228.xx"
 
     "subnet4Name" = "SPCLOUDPOC-PRES"
 
-    "subnet4Prefix" = "10.228.96.192/28"
+    "subnet4Prefix" = "10.228.xx"
   }
 
   template_body = <<DEPLOY
