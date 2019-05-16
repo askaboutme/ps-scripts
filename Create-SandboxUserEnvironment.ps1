@@ -1,18 +1,18 @@
 # Global Config
-$subscriptionId = "5f45c73d-f39c-4fef-9f37-8d168fe0f5da"
+$subscriptionId = "xxxxxxxxx"
 $rgName = "JD-SandBox-RG"
 $Location = "USGov Virginia"
 
 # vNET Config
 $vNetName = "JD-SandBox-VNET"
-$vNetAddressSpace1 = "10.228.64.0/28"
-$vNetAddressSpace2 = "10.228.62.0/28"
+$vNetAddressSpace1 = "10.228.xx"
+$vNetAddressSpace2 = "10.228.xx"
 
 # Subnet Config
 $frontEndSubnetName = "JD-SandBox-FrontEnd"
-$frontEndAddressRange = "10.228.64.0/28"
+$frontEndAddressRange = "10.228.xx"
 $managementSubnetName = "JD-SandBox-MGMT"
-$managementAddressRange = "10.228.62.0/28"
+$managementAddressRange = "10.228.xx"
 
 # NIC Config
 $frontEndNICName = "JD-SandBox-FrontEndNIC-01"
