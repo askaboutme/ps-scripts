@@ -1,17 +1,17 @@
 ﻿Add-AzureRmAccount -Environment AzureUSGovernment
 
 # Enter subscription name to use
-$SubscriptionName = "Cognosante CERRS Dev/Test Azure Gov Sub"
+$SubscriptionName = "xxxx"
 
 Select-AzureRmSubscription -Subscription $SubscriptionName
 
 # Credentials for Local Admin account for the Image
 $VMLocalAdminUser = "suser"
-$VMLocalAdminSecurePassword = ConvertTo-SecureString 'YUwScD24oAnXQVE#$U3dU2' -AsPlainText -Force
+$VMLocalAdminSecurePassword = ConvertTo-SecureString 'xxxx' -AsPlainText -Force
 
 ## Global Variables
 $ResourceGroupName = "CERRS-DEV-TEST-RG"
-$urlOfUploadedImageVhd = "https://cerrsvmgoldimage.blob.core.usgovcloudapi.net/vhds/WIN2012R2GOLD20171227v1.vhd"
+$urlOfUploadedImageVhd = "https://xxxx.blob.core.usgovcloudapi.net/vhds/WIN2012R2GOLD20171227v1.vhd"
 $vmName = "WINGOLD-DEV8"
 $computerName = "WINGOLD-DEV8"
 $vmSize = "Standard_DS1_v2"
