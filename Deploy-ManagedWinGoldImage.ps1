@@ -1,13 +1,13 @@
 ﻿Add-AzureRmAccount -Environment AzureUSGovernment
 
 ## Enter subscription name to use
-$SubscriptionName = "Cognosante CERRS Dev/Test Azure Gov Sub"
+$SubscriptionName = "xxxxx"
 
 Select-AzureRmSubscription -Subscription $SubscriptionName
 
 ## Credentials for Local Admin account for the Image
 $VMLocalAdminUser = "suser"
-$VMLocalAdminSecurePassword = ConvertTo-SecureString 'YUwScD24oAnXQVE#$U3dU2' -AsPlainText -Force
+$VMLocalAdminSecurePassword = ConvertTo-SecureString 'xxxx' -AsPlainText -Force
 
 ## Global Variables
 $ResourceGroupName = "CERRS-DEV-TEST-RG"
