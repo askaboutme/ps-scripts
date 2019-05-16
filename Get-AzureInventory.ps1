@@ -3,10 +3,10 @@
 
 Import-Module AzureRM 
 
-$SubscriptionName = "ScopeInfoTech-CM-HEDIS PLD-005"
+$SubscriptionName = "xxxx"
 
 # Output file location (change directory for each subscription)
-$OutputCSV = "C:\Users\JoKeith\Desktop\Azure Resources\Inventory\CMSGOV\All\New\ScopeInfoTech-CM-HEDIS PLD-005.csv"
+$OutputCSV = "C:\Users\JoKeith\Desktop\Azure Resources\Inventory\CMSGOV\All\New\xxxx.csv"
  
 # Retreive Azure Module properties
 "Validating installed PS Version and Azure PS Module version..."
