@@ -1,18 +1,18 @@
 ﻿# Global Config
-$subscriptionId = "9f657357-308f-4780-aee7-070aa7f55580"
+$subscriptionId = "xxxxx"
 $rgName = "CERRS-DEV-TEST-RG"
 $Location = "USGov Virginia"
 
 # vNET Config
 $vNetName = "JD-TEST-VNET"
-$vNetAddressSpace1 = "10.228.65.0/28"
-$vNetAddressSpace2 = "10.228.63.0/28"
+$vNetAddressSpace1 = "10.228.65xx"
+$vNetAddressSpace2 = "10.228.63.xx
 
 # Subnet Config
 $frontEndSubnetName = "JD-TEST-FrontEnd"
-$frontEndAddressRange = "10.228.65.0/28"
+$frontEndAddressRange = "10.228.65.xx"
 $managementSubnetName = "JD-TEST-MGMT"
-$managementAddressRange = "10.228.63.0/28"
+$managementAddressRange = "10.228.63.xx"
 
 # NIC Config
 $frontEndNICName = "JD-TEST-FrontEndNIC-01"
@@ -23,7 +23,7 @@ $vmImageName = "JD-TESTVM-AS4-IMAGE"
 
 # VM Config
 $vmLocalAdminUser = "suser"
-$vmLocalAdminSecurePassword = ConvertTo-SecureString 'YUwScD24oAnXQVE#$U3dU2' -AsPlainText -Force
+$vmLocalAdminSecurePassword = ConvertTo-SecureString 'Yxxxxx' -AsPlainText -Force
 $vmName = "JD-TEST-SandBoxVM"
 $vmSize = "Standard_D4S_V3"
 
