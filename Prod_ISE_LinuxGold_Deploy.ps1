@@ -1,7 +1,7 @@
 ﻿Add-AzureRmAccount -Environment AzureUSGovernment
 
 # Enter subscription name to use
-$SubscriptionName = "Cognosante CERRS Dev/Test Azure Gov Sub"
+$SubscriptionName = "xxxx"
 
 Select-AzureRmSubscription -Subscription $SubscriptionName
 
@@ -12,7 +12,7 @@ $SSHKeyLocation = "$env:USERPROFILE\.ssh\id_rsa.pub"
 
 ## Global Variables
 $ResourceGroupName = "CERRS-DEV-TEST-RG"
-$urlOfUploadedImageVhd = "https://cerrsvmgoldimage.blob.core.usgovcloudapi.net/vhds/rhel6820180118100712-v1.vhd"
+$urlOfUploadedImageVhd = "https://xxxxx.blob.core.usgovcloudapi.net/vhds/rhel6820180118100712-v1.vhd"
 $vmName = "RHEL68GOLD-DEV3"
 $computerName = "RHEL68GOLD-DEV3"
 $vmSize = "Standard_DS1_v2"
